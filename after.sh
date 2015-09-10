@@ -24,7 +24,7 @@ line="* * * * * php ~/ClashTarget/artisan schedule:run 1>> /dev/null 2>&1"
 (crontab -u vagrant -l; echo "$line" ) | crontab -u vagrant -
 
 #install APIDOCJS
-sudo sudo npm install apidoc -g
+sudo npm install apidoc -g
 
 echo "#######################";
 echo "HOMESTEAD is NOW READY.";
